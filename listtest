@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+$fred[0] = "yabba";
+$fred[1] = "dabba";
+$fred[2] = "doo";
+print $fred[0];
+
+print $#fred;
+
+print $fred[0]//n;
+print $fred[1]//n;
+
+($fred[0], $fred[1]) = ($fred[1], $fred[0]);
+
+print $fred[0];
+print $fred[1];

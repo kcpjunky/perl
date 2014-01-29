@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+
+use strict;
+my $name = "hi";
+
+print $name;

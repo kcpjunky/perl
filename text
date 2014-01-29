@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+
+chomp($text = <STDIN>);
+print $text;

@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+
+@rocks = qw[ yabai majide a b c 11s akutsu];
+
+@sorted = sort @rocks;
+
+print @rocks;
+
+print @sorted;

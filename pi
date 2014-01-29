@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+$hankei = 12.5;
+ chomp($input = <STDIN>);
+
+if ($input < 0) {
+	print "be 0 \n";
+	$input = 0;
+
+}
+
+print "nyuryoku = $input";
+$enshu = $input * 2 * 3.141592654;
+
+print $enshu;
