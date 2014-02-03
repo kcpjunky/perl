@@ -1,9 +1,18 @@
 #!/usr/bin/perl
-use 5.012;
 use warnings;
 
 my @rocks = qw/ bedrock slate rubble granite /;
 
-while( my($index,$value) = each @rocks) {
-	say "$index: $value" ;
+
+
+sub marine {
+	$n += 1;
+	print "hello, sailor number $n@\n";
 }
+
+$hensu = &marine;
+&marine;
+
+
+print $hensu;
+

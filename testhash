@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+ $family{"keita"} = "akutsu";
+$family{"takash"} = "tsuchiya";
+
+
+@ar = %family;
+
+print @ar;
