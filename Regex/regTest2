@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+$text = "Newsweek has been in business for nearly 80 years, during which time it has published history-changing stories, won numerous awards—and made its share of boneheaded predictions that can’t be unread.
+No one is really good at prognosticating—in the media or elsewhere—at least not for very long. Most fail miserably. David Pogue self-deprecatingly included his own oopsie daisy call—he wrote in the New York Times, in 2006, that Apple “probably never” would come out with a cell phone—in a list of all-time worst technology predictions. Fortune assured its readers, in 1996, that “by the time you read this story” Apple would be dead.
+It’s not just journalists. Even really smart people make memorably stupid predictions. This was the case long before predictions without consequences became a staple of Sunday morning news talk shows.
+ BoyGeorgeAnnieLenox
+ A musical trend predicted ... Newsweek
+ Thomas Watson, I.B.M.’s visionary chairman and C.E.O., forecast the global market for computers to be around five—as in five computers. Total sales. Yes, he said it back in 1943, but this was the fellow at the helm of the company whose computers helped land a man on the moon in 1969 and dominated the technology business for decades.
+ And he seems on the money compared to Sir William Preece, chief engineer of the British Post Office, who in 1876 harrumphed: “The Americans have need of the telephone, but we do not. We have plenty of messenger boys.” More recently, Franklin Raines, the former CEO of Fannie Mae, helpfully reassured the world, in 2004, that sub-prime loans were “riskless.”
+ To commemorate the 50th anniversary of the Beatles debut on The Ed Sullivan Show, we thought we’d share a few of our favorite predictions gone horribly awry, starting with the aforementioned rant about John, Paul, George and Ringo. (In case you are wondering, we didn’t even give them cute points.)
+ “Visually, they are a nightmare: tight, dandified, Edwardian/Beatnik suits and great pudding bowls of hair. Musically, they are a near-disaster: guitars and drums slamming out a merciless beat that does away with secondary rhythms, harmony and melody.”
+ On the other hand, check out our Boy George coverage. We didn’t really want to hurt him, so we put him on the cover, with Annie Lennox, in 1984, and are looking forward to his new album and comeback tour. Kind of.
+ In 2002, M. Night Shyamalan graced our cover and we anointed him “The Next Spielberg.” Today we have two words for that prediction: After Earth.
+ Newsweek was on to climate change as far back as 1975. In a bold prediction that has been reincarnated as a social media phenomenon, we warned about the potentially disastrous effects of … global cooling.
+ Speaking of hard science, we predicted, in 1986, that a single, 40-year-old woman had a better chance of being killed by a terrorist than getting married. M. Night should make a movie.
+ Perhaps our favorite soothsayer moment is Clifford Stoll’s 1995 essay in which he stretches his mouth like Jim Carrey and ferociously sticks his tongue out at the Internet. This piece went viral a couple of years ago, and remains an occasional Reddit sensation. First off, we would like to thank Dr. Stoll for all the extra traffic he brought our way with his understated classic, “Why the Web Won’t Be Nirvana”:
+ “We're promised instant catalog shopping—just point and click for great deals. We'll order airline tickets over the network, make restaurant reservations and negotiate sales contracts. Stores will become obsolete. So how come my local mall does more business in an afternoon than the entire Internet handles in a month? Even if there were a trustworthy way to send money over the Internet—which there isn't—the network is missing a most essential ingredient of capitalism: salespeople.”
+ Part of the essay’s staying power has to do with the cockiness with which Dr. Stoll went about his business. Reflecting on the assertion by others that one day we will all buy our newspapers and books online, Stoll waxed poetic: “Uh, sure.”
+ It’s hard not to feel a little bad for Dr. Stoll. He is a brilliant astronomer whose 1989 book, The Cuckoo Egg, engagingly described how he hunted down a notorious KGB hacker three years earlier at a tense moment during the Reagan-era Cold War and the dawn of the Internet Age. Keep in mind he was doing this when Mark Zuckerberg was two years old and Mosaic Netscape 0.9, the Lewis and Clark of web portals, was eight years away from hatching.
+
+ Newsweek contacted Dr. Stoll recently and asked if he’d care to discuss that cosmetic stain on an otherwise extraordinary career, but he declined, saying his kids were getting teased at school about his essay.  
+
+ We predict they’ll get over it.";
+
+ if (/beatles/) {
+ 	print "matched";
+}

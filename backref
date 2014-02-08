@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+
+$_ = "abba";
+if (/(.)\1/) {
+	print "it matched same character next to iteself \n";
+}

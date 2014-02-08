@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+$_ = "yabba dabba doo";
+if (/abba/) {
+	print "It matched!\n";
+}
+
+$_ = "betty";
+if (/bet.y/) {
+	print "match";
+}
+
+#dot character
+$_ = "you are doga dog.";
+
+if (/dog./) {
+	print "match";
+}
+
+#only dot character matched
+if (/dog\./) {
+	print "there is dot character in the words";
+}
